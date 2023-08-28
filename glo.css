@@ -1,0 +1,328 @@
+
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.ulone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.ulone li:hover {
+    color: grey;
+    border: 2px outset gray;
+    text-shadow: 3px 3px 9px wheat;
+    border: hidden;
+}
+
+
+.ultwo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-self: flex-end;
+}
+
+.ultwo li:hover {
+    color: grey;
+    border: 2px outset gray;
+    text-shadow: 3px 3px 9px wheat;
+    border: hidden;
+}
+
+
+h2 {
+    font-size: 1.1rem;
+    padding: 8px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.two {
+    height: 60%;
+
+}
+
+.two img {
+    width: 100%;
+}
+
+.four img {
+    width: 100%;
+}
+
+.three {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.corp {
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.corp::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #00000040;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.corp img {
+    width: 200px;
+    height: 200px;
+}
+
+.corpab {
+    position: absolute;
+    top: 15%;
+    font-size: 0.7rem;
+    padding: 10px;
+    z-index: 2;
+}
+
+
+.sme {
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    z-index: -1;
+    overflow:hidden;
+}
+
+.sme img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.smeab {
+    position: absolute;
+    top: 15%;
+    font-size: 0.7rem;
+    padding: 10px;
+    z-index: 2;
+
+}
+
+.three:hover {
+    color: red;
+    border: 1px solid grey;
+    border: hidden;
+}
+
+.sme::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #00000040;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.public {
+    position: relative;
+    color: white;
+    text-align: center;
+    z-index: -1;
+
+}
+
+
+.public img {
+    width: 200px;
+    height: 200px;
+}
+
+.publiab {
+    position: absolute;
+    top: 15%;
+    font-size: 0.7rem;
+    padding: 10px;
+    z-index: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+
+.public::after  {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #00000040;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.five {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    box-sizing: content-box;
+    margin: 20px;
+    padding: 25px;
+}
+
+
+.tobi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 3px 4px 10px gray;
+}
+
+.tobi img {
+    width: 60%;
+    height: 150px;
+}
+
+.smenews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 70%;
+    padding: 10px;
+    box-shadow: 3px 4px 10px gray;
+}
+
+.smenews img {
+    width: 60%;
+    height: 150px;
+
+}
+
+.publicsector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex: 1;
+    height: 50%;
+    padding: 10px;
+    box-shadow: 3px 4px 10px gray;
+
+}
+
+.publicsector img {
+    width: 60%;
+    height: 150px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(106, 156, 31);
+    color: white;
+    padding: 30px;
+    border: 1px dashed grey;
+    margin-top: 20px;
+}
+
+section  h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    background-color: white;
+    padding: 8px;
+    color: rgb(57, 75, 29);
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    
+}
+
+footer li {
+    padding: 10px;
+}
+
+.offer  {
+    
+    flex: 1;
+}
+
+.support {
+    flex: 1;
+}
+
+.company {
+    flex: 1;
+}
+
+.iglo {
+    flex: 1;
+}
+
+
+.useful  {
+    flex: 1;
+}
+
+ .bottom {
+    background-color: green;
+    padding: 10px;
+    height: 10vh;
+    
+
+}
+
+
+
+hr {
+    background-color: green;
+    width: 30%;
+    height: 3px;
+    margin-top: 0px;
+    margin-left: 6px;
+    border: hidden;
+}
